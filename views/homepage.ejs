@@ -14,7 +14,9 @@
         <%if (images.length >0){%>
         <% images.forEach((rows)=>{%>
         <div class="col-md-4">
-            <img src="./uploads/<%= rows.avatar%>" alt="image" style="width:100%;margin:5px auto;">
+            <a target="_blank" href="./uploads/<%= rows.avatar%>">
+            <img src="./uploads/<%= rows.avatar%>" alt="image" class="img-thumbnail" style="width:100%;margin:5px auto;">
+        </a>
         </div>
         <%})}%>
     </div>
