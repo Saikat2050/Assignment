@@ -1,4 +1,5 @@
 ﻿# Assignment
+ 
 
 For installing required modules => npm i
 
@@ -9,3 +10,5 @@ Log in Details ->
   password : 1234
   
  
+ 
+ URL for the application => http://localhost:3000/
